@@ -1,5 +1,8 @@
 quantidade = int(input("digite quantos numeros voce quer"))
-while quantidade=0
+salvar = quantidade
+soma = 0
+while quantidade>0:
     numero = int(input("digite um numero"))
-    soma = soma = numero
-print (soma/quantidade)
+    quantidade = quantidade -1
+    soma = soma + numero
+print (soma/salvar)
