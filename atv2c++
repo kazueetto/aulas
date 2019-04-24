@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main (void){
+    int nr, nt;
+    cout <<"Digite um número: ";
+    cin >> nr;
+    cout <<"Digite outro número: ";
+    cin >> nt;
+    cout <<"A soma dos numeros é " <<nr+nt; 
+    return 0;
+}
