@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main (void){
+    int nr, nt, ny;
+    cout <<"Digite um número: ";
+    cin >> nr;
+    cout <<"Digite outro número: ";
+    cin >> nt;
+    cout <<"Digite outro número: ";
+    cin >> ny;
+    float m = nr+nt+ny;
+    cout <<"A média dos numeros é " <<m/3; 
+    return 0;
+}
+
