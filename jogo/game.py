@@ -4,7 +4,7 @@ BLACK = (0, 0, 0)
 RESOL = [800, 600]
 LOOP  = True
 POS = (x,y)
-SPRITE = "bolota.png"
+SPRITE = "BATEMAN.png"
 
 import pygame
 import serial
