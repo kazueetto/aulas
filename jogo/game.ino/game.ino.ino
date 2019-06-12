@@ -22,7 +22,7 @@ void loop(){
                           Serial.println("E"); 
                       }else{
                             if(digitalRead(botao) == LOW){ 
-                               Serial.println("BOTAO PRESSIONADO"); 
+                               Serial.println("P"); 
                             }  
                       }
                 }
